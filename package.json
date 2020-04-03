@@ -1,0 +1,29 @@
+{
+  "name": "recursive-minify",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sean12697/recursive-minify.git"
+  },
+  "keywords": [
+    "Minify",
+    "Recursive",
+    "JS",
+    "CSS"
+  ],
+  "author": "Sean O'Mahoney",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sean12697/recursive-minify/issues"
+  },
+  "homepage": "https://github.com/Sean12697/recursive-minify#readme",
+  "dependencies": {
+    "minify": "^5.1.1",
+    "recursive-readdir-synchronous": "0.0.4"
+  }
+}
