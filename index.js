@@ -3,7 +3,7 @@ const fs = require('fs'), minify = require('minify'), recursive = require('recur
 function recursiveMinify(entryPath, fileTypes = ["css", "js"]) {
     recursive(entryPath).forEach(file => {
         if (fileTypes.some(type => file.endsWith(`.${type}`))) {
-            minifyFile(`${entryPath}/${file}`);
+            minifyFile(file);
         }
     });
 }
